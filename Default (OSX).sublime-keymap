@@ -1,0 +1,13 @@
+[
+	{ "keys": ["super+shift+k"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
+	{ "keys": ["ctrl+super+up"], "command": "swap_line_up" },
+	{ "keys": ["ctrl+super+down"], "command": "swap_line_down" },
+	{ "keys": ["super+e"], "command": "next_bookmark" },
+	{ "keys": ["super+shift+e"], "command": "prev_bookmark" },
+	{ "keys": ["super+alt+e"], "command": "toggle_bookmark" },
+	{ "keys": ["super+shift+alt+e"], "command": "clear_bookmarks" },
+	{ "keys": ["ctrl+alt+e"], "command": "select_all_bookmarks" },
+	{ "keys": ["super+ctrl+r"], "command": "reindent" },
+	{ "keys": ["super+alt+r"], "command": "reindent" },
+	{ "keys": ["super+alt+ctrl+a"], "command": "alignment" }
+]

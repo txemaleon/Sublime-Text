@@ -1,0 +1,39 @@
+{
+	"Seti_SB_bright": true,
+	"Seti_blue_tab_label": true,
+	"Seti_tabs_small": true,
+	"caret_extra_width": 1,
+	"caret_style": "phase",
+	"color_scheme": "Packages/User/SublimeLinter/Seti (SL).tmTheme",
+	"draw_minimap_border": true,
+	"enable_tab_scrolling": false,
+	"font_options":
+	[
+		"no_round"
+	],
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage",
+		"SublimeLinter-phplint"
+	],
+	"line_padding_top": 2,
+	"mouse_wheel_tabswitch": true,
+	"open_files_in_new_window": false,
+	"overlay_scroll_bars": "enabled",
+	"preview_on_click": false,
+	"remember_full_screen": true,
+	"scroll_past_end": true,
+	"scroll_speed": 5,
+	"shift_tab_unindent": true,
+	"show_full_path": false,
+	"show_tab_close_buttons": true,
+	"sidebar_default": true,
+	"tab_size": 4,
+	"tabs_small": true,
+	"theme": "Seti.sublime-theme",
+	"translate_tabs_to_spaces": false,
+	"trim_trailing_white_space_on_save": true,
+	"word_wrap": true
+}
