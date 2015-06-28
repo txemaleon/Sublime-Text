@@ -6,3 +6,5 @@ Package Control.cache/
 Package Control.ca-certs/
 Evernote.sublime-settings
 SFTP.errors.log
+Package Control.merged-ca-bundle
+Package Control.user-ca-bundle
