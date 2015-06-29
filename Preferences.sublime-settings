@@ -4,7 +4,7 @@
 	"Seti_tabs_small": true,
 	"caret_extra_width": 1,
 	"caret_style": "phase",
-	"color_scheme": "Packages/User/SublimeLinter/Seti (SL).tmTheme",
+	"color_scheme": "Packages/Seti_UI/Scheme/Seti.tmTheme",
 	"draw_minimap_border": true,
 	"enable_tab_scrolling": false,
 	"font_options":
@@ -15,8 +15,11 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Vintage",
-		"SublimeLinter-phplint"
+		"JavaScript Completions",
+		"Markdown",
+		"MarkdownEditing",
+		"SublimeLinter-phplint",
+		"Vintage"
 	],
 	"line_padding_top": 2,
 	"mouse_wheel_tabswitch": true,
