@@ -4,7 +4,7 @@
 	"Seti_tabs_small": true,
 	"caret_extra_width": 1,
 	"caret_style": "phase",
-	"color_scheme": "Packages/Seti_UI/Scheme/Seti.tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/predawn (SL).tmTheme",
 	"draw_minimap_border": true,
 	"enable_tab_scrolling": false,
 	"font_options":
@@ -16,10 +16,10 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"MarkdownEditing",
 		"SublimeLinter-phplint",
-		"Vintage",
 		"JavaScript Completions",
-		"MarkdownEditing"
+		"Vintage"
 	],
 	"line_padding_top": 2,
 	"mouse_wheel_tabswitch": true,
@@ -35,7 +35,7 @@
 	"sidebar_default": true,
 	"tab_size": 4,
 	"tabs_small": true,
-	"theme": "Seti.sublime-theme",
+	"theme": "predawn-DEV.sublime-theme",
 	"translate_tabs_to_spaces": false,
 	"trim_trailing_white_space_on_save": true,
 	"word_wrap": true
