@@ -11,15 +11,15 @@
 	[
 		"no_round"
 	],
+	"font_size": 13,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"SublimeLinter-phplint",
 		"Vintage",
-		"Markdown",
-		"MarkdownEditing",
 		"JavaScript Completions",
-		"SublimeLinter-phplint"
+		"MarkdownEditing"
 	],
 	"line_padding_top": 2,
 	"mouse_wheel_tabswitch": true,
