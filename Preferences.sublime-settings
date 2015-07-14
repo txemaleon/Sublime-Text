@@ -16,10 +16,10 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"MarkdownEditing",
-		"SublimeLinter-phplint",
+		"Vintage",
 		"JavaScript Completions",
-		"Vintage"
+		"MarkdownEditing",
+		"SublimeLinter-phplint"
 	],
 	"line_padding_top": 2,
 	"mouse_wheel_tabswitch": true,
