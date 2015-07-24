@@ -41,8 +41,6 @@
 		"SublimeLinter",
 		"SublimeLinter-jshint",
 		"SublimeLinter-php",
-		"SublimeLinter-phplint",
-		"SublimeOnSaveBuild",
 		"Tag",
 		"Themr",
 		"Trimmer",
