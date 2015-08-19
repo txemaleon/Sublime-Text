@@ -7,18 +7,17 @@
 	"color_scheme": "Packages/User/SublimeLinter/Afterglow-monokai (SL).tmTheme",
 	"draw_minimap_border": true,
 	"enable_tab_scrolling": false,
-	"font_face": "inconsolata-g",
 	"font_options":
 	[
 		"no_round"
 	],
-	"font_size": 11,
+	"font_size": 14,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"MarkdownEditing",
-		"Vintage"
+		"Vintage",
+		"MarkdownEditing"
 	],
 	"line_padding_top": 8,
 	"material_theme_accent_lime": true,

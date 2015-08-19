@@ -39,10 +39,6 @@
 		"SublimeLinter",
 		"SublimeLinter-jshint",
 		"SublimeLinter-php",
-<<<<<<< HEAD
-		"SublimeOnSaveBuild",
-=======
->>>>>>> deaf78a2e1ab0d75c309ba02f2329842ffc7d191
 		"Tag",
 		"Theme - Afterglow",
 		"Themr",
