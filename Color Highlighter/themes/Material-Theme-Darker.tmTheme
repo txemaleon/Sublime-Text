@@ -17,6 +17,7 @@
 <key>name</key>
 <string>mon_color</string>
 <key>scope</key>
+<<<<<<< HEAD
 <string>mcol_E30087FF</string>
 <key>settings</key>
 <dict>
@@ -85,6 +86,8 @@
 <key>name</key>
 <string>mon_color</string>
 <key>scope</key>
+=======
+>>>>>>> deaf78a2e1ab0d75c309ba02f2329842ffc7d191
 <string>mcol_FF0000FF</string>
 <key>settings</key>
 <dict>
@@ -102,6 +105,7 @@
 <key>name</key>
 <string>mon_color</string>
 <key>scope</key>
+<<<<<<< HEAD
 <string>mcol_E30087FF</string>
 <key>settings</key>
 <dict>
@@ -187,6 +191,8 @@
 <key>name</key>
 <string>mon_color</string>
 <key>scope</key>
+=======
+>>>>>>> deaf78a2e1ab0d75c309ba02f2329842ffc7d191
 <string>mcol_FFFFFFFF</string>
 <key>settings</key>
 <dict>
@@ -200,6 +206,7 @@
 </dict>
 
 
+<<<<<<< HEAD
 <dict>
 <key>name</key>
 <string>mon_color</string>
@@ -1696,13 +1703,19 @@
 </dict>
 
 
+=======
+>>>>>>> deaf78a2e1ab0d75c309ba02f2329842ffc7d191
 		<dict>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
 				<string>#212121</string>
 				<key>caret</key>
+<<<<<<< HEAD
 				<string>#FFCC00</string>
+=======
+				<string>#c0c5ce</string>
+>>>>>>> deaf78a2e1ab0d75c309ba02f2329842ffc7d191
 				<key>foreground</key>
 				<string>#c0c5ce70</string>
 				<key>invisibles</key>
