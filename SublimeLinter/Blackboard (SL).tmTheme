@@ -2,27 +2,27 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>name</key>
+	<string>Blackboard</string>
 	<key>author</key>
 	<string>Domenico Carbotta</string>
-	<key>name</key>
-	<string>LAZY</string>
 	<key>settings</key>
 	<array>
 		<dict>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#FFFFFF</string>
+				<string>#0C1021</string>
 				<key>caret</key>
-				<string>#7C7C7C</string>
+				<string>#FFFFFFA6</string>
 				<key>foreground</key>
-				<string>#000000</string>
+				<string>#F8F8F8</string>
 				<key>invisibles</key>
-				<string>#B6B6B6</string>
+				<string>#FFFFFF40</string>
 				<key>lineHighlight</key>
-				<string>#EFFCA68F</string>
+				<string>#FFFFFF0F</string>
 				<key>selection</key>
-				<string>#E3FC8D</string>
+				<string>#253B76</string>
 			</dict>
 		</dict>
 		<dict>
@@ -35,7 +35,7 @@
 				<key>fontStyle</key>
 				<string />
 				<key>foreground</key>
-				<string>#8C868F</string>
+				<string>#AEAEAE</string>
 			</dict>
 		</dict>
 		<dict>
@@ -48,7 +48,7 @@
 				<key>fontStyle</key>
 				<string />
 				<key>foreground</key>
-				<string>#3B5BB5</string>
+				<string>#D8FA3C</string>
 			</dict>
 		</dict>
 		<dict>
@@ -61,33 +61,33 @@
 				<key>fontStyle</key>
 				<string />
 				<key>foreground</key>
-				<string>#3B5BB5</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Latex Entity</string>
-			<key>scope</key>
-			<string>text.tex.latex entity</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string />
-				<key>foreground</key>
-				<string>#D62A28</string>
+				<string>#FF6400</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Keyword</string>
 			<key>scope</key>
-			<string>keyword, storage</string>
+			<string>keyword</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string />
 				<key>foreground</key>
-				<string>#FF7800</string>
+				<string>#FBDE2D</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Storage</string>
+			<key>scope</key>
+			<string>storage</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string />
+				<key>foreground</key>
+				<string>#FBDE2D</string>
 			</dict>
 		</dict>
 		<dict>
@@ -100,7 +100,7 @@
 				<key>fontStyle</key>
 				<string />
 				<key>foreground</key>
-				<string>#409B1C</string>
+				<string>#61CE3C</string>
 			</dict>
 		</dict>
 		<dict>
@@ -113,7 +113,7 @@
 				<key>fontStyle</key>
 				<string />
 				<key>foreground</key>
-				<string>#3B5BB5</string>
+				<string>#8DA6CE</string>
 			</dict>
 		</dict>
 		<dict>
@@ -137,7 +137,7 @@
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>#990000</string>
+				<string>#AB2A1D</string>
 			</dict>
 		</dict>
 		<dict>
@@ -163,7 +163,7 @@
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>#3B5BB5</string>
+				<string>#FF6400</string>
 			</dict>
 		</dict>
 		<dict>
@@ -176,7 +176,7 @@
 				<key>fontStyle</key>
 				<string />
 				<key>foreground</key>
-				<string>#671EBB</string>
+				<string>#FF6400</string>
 			</dict>
 		</dict>
 		<dict>
@@ -189,7 +189,7 @@
 				<key>fontStyle</key>
 				<string />
 				<key>foreground</key>
-				<string>#3E4558</string>
+				<string>#BECDE6</string>
 			</dict>
 		</dict>
 		<dict>
@@ -200,7 +200,20 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#3A4A64</string>
+				<string>#7F90AA</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>entity.name.section</string>
+			<key>scope</key>
+			<string>entity.name.section</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string />
+				<key>foreground</key>
+				<string>#FFFFFF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -210,21 +223,19 @@
 			<string>keyword.type.variant</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string />
 				<key>foreground</key>
-				<string>#7F90AA</string>
+				<string>#D5E0F3</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>OCaml operator</string>
 			<key>scope</key>
-			<string>source.ocaml keyword.operator</string>
+			<string>source.ocaml keyword.operator.symbol</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#000000</string>
+				<string>#F8F8F8</string>
 			</dict>
 		</dict>
 		<dict>
@@ -237,7 +248,7 @@
 				<key>fontStyle</key>
 				<string />
 				<key>foreground</key>
-				<string>#3B5BB5</string>
+				<string>#8DA6CE</string>
 			</dict>
 		</dict>
 		<dict>
@@ -247,13 +258,15 @@
 			<string>source.ocaml keyword.operator.symbol.prefix</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string />
 				<key>foreground</key>
-				<string>#3B5BB5</string>
+				<string>#8DA6CE</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>OCaml infix f-p operator</string>
+			<string>OCaml f-p infix operator</string>
 			<key>scope</key>
 			<string>source.ocaml keyword.operator.symbol.infix.floating-point</string>
 			<key>settings</key>
@@ -264,7 +277,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>OCaml prefix f-p operator</string>
+			<string>OCaml f-p prefix operator</string>
 			<key>scope</key>
 			<string>source.ocaml keyword.operator.symbol.prefix.floating-point</string>
 			<key>settings</key>
@@ -282,6 +295,52 @@
 			<dict>
 				<key>fontStyle</key>
 				<string>underline</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>LaTeX environment</string>
+			<key>scope</key>
+			<string>text.tex.latex meta.function.environment</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#FFFFFF08</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>LaTeX environment (nested)</string>
+			<key>scope</key>
+			<string>text.tex.latex meta.function.environment meta.function.environment</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#7A96FA08</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Latex support</string>
+			<key>scope</key>
+			<string>text.tex.latex support.function</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string />
+				<key>foreground</key>
+				<string>#FBDE2D</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PList unquoted string</string>
+			<key>scope</key>
+			<string>source.plist string.unquoted, source.plist keyword.operator</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
 			</dict>
 		</dict>
 	<dict>
@@ -316,6 +375,6 @@
             </dict>
         </dict></array>
 	<key>uuid</key>
-	<string>A1E55FCB-3CD2-4811-9E73-D9B87419443A</string>
+	<string>A2C6BAA7-90D0-4147-BBF5-96B0CD92D109</string>
 </dict>
 </plist>
