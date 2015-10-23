@@ -8,3 +8,4 @@ Evernote.sublime-settings
 SFTP.errors.log
 Package Control.merged-ca-bundle
 Package Control.user-ca-bundle
+*.exe
