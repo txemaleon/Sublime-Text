@@ -33,7 +33,7 @@
 		"*.suo",
 		"*.xmind",
 		".DS_Store",
-		"sftp-config.json",
+		"sftp-config.json"
 	],
 	"folder_exclude_patterns":
 	[
@@ -43,7 +43,7 @@
 		".hg",
 		".svn",
 		"Adobe",
-		"CVS",
+		"CVS"
 	],
 	"font_options":
 	[
