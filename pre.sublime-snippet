@@ -1,7 +1,6 @@
 <snippet>
 	<content><![CDATA[
-pre( \$${1:var} );
-${2}
+pre( \$${1:var} );${2}
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>pr</tabTrigger>
