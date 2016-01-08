@@ -37,6 +37,7 @@
 	],
 	"folder_exclude_patterns":
 	[
+		"_",
 		"*virtual*",
 		".*cache*",
 		".git",
