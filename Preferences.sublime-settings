@@ -49,12 +49,12 @@
 	[
 		"no_round"
 	],
-	"font_size": 13,
+	"font_size": 14,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"MarkdownEditing",
+		"Markdown",
 		"Vintage"
 	],
 	"line_padding_top": 8,
