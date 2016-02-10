@@ -1,0 +1,4 @@
+{
+	"draw_centered": true,
+	"wrap_width": 40  // Sets the # of characters per line
+}
