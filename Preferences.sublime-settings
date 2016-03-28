@@ -7,6 +7,7 @@
 	"color_scheme": "Packages/User/SublimeLinter/Afterglow-monokai (SL).tmTheme",
 	"draw_minimap_border": true,
 	"enable_tab_scrolling": false,
+	"ensure_newline_at_eof_on_save": true,
 	"file_exclude_patterns":
 	[
 		"*.a",
