@@ -2,6 +2,8 @@
 	"Seti_SB_bright": true,
 	"Seti_blue_tab_label": true,
 	"Seti_tabs_small": true,
+	"caret_extra_bottom": 2,
+	"caret_extra_top": 2,
 	"caret_extra_width": 1,
 	"caret_style": "phase",
 	"color_scheme": "Packages/User/SublimeLinter/Afterglow-monokai (SL).tmTheme",
@@ -58,8 +60,15 @@
 		"Markdown",
 		"Vintage"
 	],
+	"indent_guide_options": ["draw_normal", "draw_active"],
 	"line_padding_top": 8,
+	"line_padding_bottom": 8,
 	"material_theme_accent_lime": true,
+	"match_brackets": true,
+	"match_brackets_angle": true,
+	"match_brackets_braces": true,
+	"match_brackets_content": true,
+	"match_brackets_square": true,
 	"mouse_wheel_tabswitch": true,
 	"open_files_in_new_window": false,
 	"overlay_scroll_bars": "enabled",
@@ -79,5 +88,6 @@
 	"theme": "Afterglow-magenta.sublime-theme",
 	"translate_tabs_to_spaces": false,
 	"trim_trailing_white_space_on_save": true,
-	"word_wrap": true
+	"word_wrap": true,
+	"wide_caret": true
 }
