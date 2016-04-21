@@ -36,6 +36,8 @@
 		"*.suo",
 		"*.xmind",
 		".DS_Store",
+		"codekit.config",
+		"prepros.cfg",
 		"sftp-config.json"
 	],
 	"folder_exclude_patterns":
