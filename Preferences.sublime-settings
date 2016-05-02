@@ -48,7 +48,8 @@
 		".hg",
 		".svn",
 		"Adobe",
-		"CVS"
+		"CVS",
+		"node_modules"
 	],
 	"font_face": "Inconsolata",
 	"font_options":
