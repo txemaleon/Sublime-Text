@@ -95,6 +95,7 @@
 	"theme": "Material-Theme.sublime-theme",
 	"translate_tabs_to_spaces": false,
 	"trim_trailing_white_space_on_save": true,
+	"typewriter_mode_scrolling": true,
 	"wide_caret": true,
 	"word_separators": "./\\()\"':,.;<>~!@#%^&*|+=[]{}`~?",
 	"word_wrap": true
