@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+class ${1:className} {
+
+	function __construct() {
+		${3}
+	}
+
+	${4}
+
+}
+
+function ${1:className}Init() {
+	new ${1:className};
+}
+add_action( 'init', '${1:className}Init', ${2:10} );
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>wpc</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>
