@@ -12,33 +12,17 @@
 	"ensure_newline_at_eof_on_save": true,
 	"file_exclude_patterns":
 	[
-		"*.a",
-		"*.class",
-		"*.db",
-		"*.dll",
-		"*.dylib",
-		"*.exe",
-		"*.idb",
 		"*.ini",
-		"*.lib",
-		"*.ncb",
-		"*.o",
-		"*.obj",
-		"*.pdb",
 		"*.psd",
-		"*.pyc",
-		"*.pyo",
 		"*.rdp",
-		"*.sdf",
-		"*.so",
 		"*.sublime-project",
 		"*.sublime-workspace",
 		"*.suo",
 		"*.xmind",
 		".DS_Store",
-		"sftp-config.json",
 		"config.codekit",
-		"prepros.cfg"
+		"prepros.cfg",
+		"sftp-config.json"
 	],
 	"folder_exclude_patterns":
 	[
