@@ -13,3 +13,4 @@ SublimeLinter
 Color Highlighter
 Gist.sublime-settings
 Projects/*
+*.tmTheme
