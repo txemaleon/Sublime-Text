@@ -3,7 +3,7 @@
 	"draw_indent_guides": false,
 	"trim_trailing_white_space_on_save": true,
 	"font_face": "Menlo",
-	"font_size":24,
+	"font_size":15,
 	"word_wrap": true,
 	"wrap_width": 50  // Sets the # of characters per line
 }
