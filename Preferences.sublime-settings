@@ -21,6 +21,7 @@
 		"*.suo",
 		"*.xmind",
 		".DS_Store",
+		".gitkeep",
 		"config.codekit",
 		"prepros.cfg",
 		"sftp-config.json"
