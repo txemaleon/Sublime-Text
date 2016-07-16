@@ -1,16 +1,13 @@
-Package Control.last-run
-Package Control.ca-list
-Package Control.ca-bundle
-Package Control.system-ca-bundle
-Package Control.cache/
-Package Control.ca-certs/
-Evernote.sublime-settings
-SFTP.errors.log
-Package Control.merged-ca-bundle
-Package Control.user-ca-bundle
+*.cache
 *.exe
-SublimeLinter
+*.last-run
+*.log
+*.tmTheme
+*ca-bundle
+*ca-certs/
+*ca-list
 Color Highlighter
+Evernote.sublime-settings
 Gist.sublime-settings
 Projects/*
-*.tmTheme
+SublimeLinter/*
