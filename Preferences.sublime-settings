@@ -62,6 +62,7 @@
 	"match_brackets_content": true,
 	"match_brackets_square": true,
 	"material_theme_accent_lime": true,
+	"material_theme_bold_tab": true,
 	"mouse_wheel_tabswitch": true,
 	"open_files_in_new_window": false,
 	"overlay_scroll_bars": "enabled",
