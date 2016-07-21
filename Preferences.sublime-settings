@@ -24,7 +24,7 @@
 		".gitkeep",
 		"config.codekit",
 		"prepros.cfg",
-		"sftp-config.json"
+		"sftp-config*.json"
 	],
 	"folder_exclude_patterns":
 	[
