@@ -2,7 +2,7 @@
 	<content><![CDATA[
 protected function ${1}(${2}) {
 
-	${3}
+	${0}
 
 }
 ]]></content>

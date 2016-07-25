@@ -3,10 +3,8 @@
 class ${1:className} {
 
 	function __construct() {
-		${3}
+		${0}
 	}
-
-	${4}
 
 }
 
