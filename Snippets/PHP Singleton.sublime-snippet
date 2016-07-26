@@ -1,0 +1,57 @@
+<snippet>
+	<content><![CDATA[
+class ${1:ClassName}
+{
+	/**
+	 * @var ${1:ClassName} The reference to *${1:ClassName}* instance of this class
+	 */
+	private static \$instance;
+
+	/**
+	 * Returns the *${1:ClassName}* instance of this class.
+	 *
+	 * @return ${1:ClassName} The *${1:ClassName}* instance.
+	 */
+	public static function getInstance()
+	{
+		if (null === static::\$instance) {
+			static::\$instance = new static();
+		}
+
+		return static::\$instance;
+	}
+
+	/**
+	 * Protected constructor to prevent creating a new instance of the
+	 * *${1:ClassName}* via the `new` operator from outside of this class.
+	 */
+	protected function __construct() {}
+
+	/**
+	 * Private clone method to prevent cloning of the instance of the
+	 * *${1:ClassName}* instance.
+	 *
+	 * @return void
+	 */
+	private function __clone() {}
+
+	/**
+	 * Private unserialize method to prevent unserializing of the *${1:ClassName}*
+	 * instance.
+	 *
+	 * @return void
+	 */
+	private function __wakeup() {}
+
+	${0:// Work}
+}
+
+function ${1:ClassName}() {
+	return ${1:ClassName}::getInstance();
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>singleton</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>
