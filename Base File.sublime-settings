@@ -1,4 +1,6 @@
 {
+	"alignment_chars": [ "=", ":" ],
+	"alignment_space_chars": [ "=", ":" ],
 	"jsdocs_extend_double_slash": false,
 	"jsdocs_indentation_spaces": 1,
 	"jsdocs_return_description": false,
