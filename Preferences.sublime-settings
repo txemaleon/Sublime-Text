@@ -30,6 +30,7 @@
 		".git",
 		".hg",
 		".svn",
+		".vagrant",
 		"Adobe",
 		"CVS",
 		"node_modules"
