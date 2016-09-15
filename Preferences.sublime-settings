@@ -28,6 +28,7 @@
 		"*virtual*",
 		".*cache*",
 		".git",
+		".github",
 		".hg",
 		".svn",
 		".vagrant",
