@@ -3,7 +3,7 @@
 *.last-run
 *.log
 *.tmTheme
-*ca-bundle
+*ca-bundle*
 *ca-certs/
 *ca-list
 Color Highlighter

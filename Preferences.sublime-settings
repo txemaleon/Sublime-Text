@@ -36,7 +36,7 @@
 		"CVS",
 		"node_modules"
 	],
-	"font_face": "Inconsolata",
+	"font_face": "Operator Mono",
 	"font_options":
 	[
 		"directwrite",
@@ -44,7 +44,7 @@
 		"no_round",
 		"subpixel_antialias"
 	],
-	"font_size": 19,
+	"font_size": 22,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
