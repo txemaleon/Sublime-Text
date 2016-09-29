@@ -2,8 +2,6 @@
 	"draw_centered": true,
 	"draw_indent_guides": false,
 	"trim_trailing_white_space_on_save": true,
-	"font_face": "Menlo",
-	"font_size":15,
 	"word_wrap": true,
-	"wrap_width": 50  // Sets the # of characters per line
+	"wrap_width": 80  // Sets the # of characters per line
 }
