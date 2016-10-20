@@ -13,8 +13,6 @@
 		"*.ini",
 		"*.psd",
 		"*.rdp",
-		"*.sublime-project",
-		"*.sublime-workspace",
 		"*.suo",
 		"*.xmind",
 		".DS_Store",
