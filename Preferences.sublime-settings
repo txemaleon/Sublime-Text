@@ -25,6 +25,8 @@
 	[
 		"*virtual*",
 		".*cache*",
+		".AppleDouble",
+		".deco",
 		".git",
 		".github",
 		".hg",
@@ -32,7 +34,8 @@
 		".vagrant",
 		"Adobe",
 		"CVS",
-		"node_modules"
+		"node_modules",
+		"__tests__"
 	],
 	"font_face": "Operator Mono",
 	"font_options":
