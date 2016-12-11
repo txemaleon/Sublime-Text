@@ -1,0 +1,31 @@
+{
+	"type": "sftp",
+
+	"host": "example.com",
+	"user": "www-data",
+	"password": "password",
+	"remote_path": "/example.com/wp-content/themes/",
+	// "ssh_key_file": "~/.ssh/id_rsa",
+	// "port": "22",
+
+	"save_before_upload": true,
+	"upload_on_save": true,
+	"sync_down_on_open": true,
+	"sync_skip_deletes": false,
+	"sync_same_age": true,
+	"confirm_downloads": false,
+	"confirm_sync": true,
+	"confirm_overwrite_newer": true,
+	"ignore_regexes": [
+		"\\\.sublime-(project|workspace)", "sftp-config(-alt\\\d?)?\\\.json",
+		"sftp-settings\\\.json", "/venv/", "\\\.svn/", "\\\.hg/", "\\\.git/",
+		"\\\.bzr", "_darcs", "CVS", "\\\.DS_Store", "Thumbs\\\.db", "desktop\\\.ini",
+		"\\\.sass-cache", "\\node_modules", "\\\.codekit", "prepros.cfg"
+	],
+	"dir_permissions": "775",
+	"file_permissions": "664",
+	"extra_list_connections": 10,
+	"connect_timeout": 3,
+	"keepalive": 60,
+	"preserve_modification_times": true
+}
