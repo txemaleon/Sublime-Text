@@ -4,6 +4,7 @@
 	// http://docs.emmet.io/customization/preferences/
 	"preferences": {
 		"css.valueSeparator": ": ",
+		"css.alignVendor": true,
 		"css.propertyEnd": ";"
 	},
 }
