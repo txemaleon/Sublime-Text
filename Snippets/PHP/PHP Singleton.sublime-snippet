@@ -12,12 +12,10 @@ class ${1:ClassName}
 	 *
 	 * @return ${1:ClassName} The *${1:ClassName}* instance.
 	 */
-	public static function getInstance()
-	{
+	public static function getInstance() {
 		if (null === static::\$instance) {
 			static::\$instance = new static();
 		}
-
 		return static::\$instance;
 	}
 

@@ -1,11 +1,9 @@
 <snippet>
 	<content><![CDATA[
 class ${1:className} {
-
 	function __construct() {
 		${0}
 	}
-
 }
 
 function ${1:className}Init() {
