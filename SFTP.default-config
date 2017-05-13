@@ -1,31 +1,32 @@
 {
-	"type": "sftp",
+	"type": "${1:s}ftp",
 
-	"host": "example.com",
-	"user": "www-data",
-	"password": "password",
-	"remote_path": "/example.com/wp-content/themes/",
-	// "ssh_key_file": "~/.ssh/id_rsa",
+	"host": "${2:example.com}",
+	"remote_path": "${3:/${2:example.com}/wp-content/themes/}",
+	"user": "${4:www-data}",
+	// "password": "password",
+	"ssh_key_file": "${5:~/.ssh/id_rsa}",
 	// "port": "22",
 
-	"save_before_upload": true,
-	"upload_on_save": true,
-	"sync_down_on_open": true,
-	"sync_skip_deletes": false,
-	"sync_same_age": true,
-	"confirm_downloads": false,
-	"confirm_sync": true,
-	"confirm_overwrite_newer": true,
+	"save_before_upload": ${20:true},
+	"upload_on_save": ${21:true},
+	"sync_down_on_open": ${22:false},
+	"sync_skip_deletes": ${23:false},
+	"sync_same_age": ${24:true},
+	"confirm_downloads": ${25:false},
+	"confirm_sync": ${26:false},
+	"confirm_overwrite_newer": ${27:true},
 	"ignore_regexes": [
 		"\\\.sublime-(project|workspace)", "sftp-config(-alt\\\d?)?\\\.json",
 		"sftp-settings\\\.json", "/venv/", "\\\.svn/", "\\\.hg/", "\\\.git/",
 		"\\\.bzr", "_darcs", "CVS", "\\\.DS_Store", "Thumbs\\\.db", "desktop\\\.ini",
-		"\\\.sass-cache", "\\node_modules", "\\\.codekit", "prepros.cfg"
+		"\\\.sass-cache", "\\node_modules", "\\\.codekit", "prepros.cfg",
+		"\\\.env", "\\\.git(.*)"
 	],
 	"dir_permissions": "775",
 	"file_permissions": "664",
 	"extra_list_connections": 10,
-	"connect_timeout": 3,
+	"connect_timeout": 6,
 	"keepalive": 60,
 	"preserve_modification_times": true
 }
