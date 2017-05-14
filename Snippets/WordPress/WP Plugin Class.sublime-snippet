@@ -1,15 +1,15 @@
 <snippet>
 	<content><![CDATA[
-class ${1:className} {
+class ${1/(class\.|\.php)//g:$TM_FILENAME} {
 	function __construct() {
 		${0}
 	}
 }
 
-function ${1:className}Init() {
-	new ${1:className};
+function ${1/(class\.|\.php)//g:$TM_FILENAME}Init() {
+	new ${1/(class\.|\.php)//g:$TM_FILENAME};
 }
-add_action( 'init', '${1:className}Init', ${2:10} );
+add_action( 'init', '${1/(class\.|\.php)//g:$TM_FILENAME}Init', ${2:10} );
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>wpc</tabTrigger>
