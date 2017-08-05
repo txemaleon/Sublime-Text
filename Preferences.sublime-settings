@@ -27,9 +27,11 @@
 		".*cache*",
 		".AppleDouble",
 		".deco",
+		".expo",
 		".git",
 		".github",
 		".hg",
+		".next",
 		".svn",
 		".vagrant",
 		"Adobe",
@@ -46,6 +48,7 @@
 		"subpixel_antialias"
 	],
 	"font_size": 20,
+	"hide_minimap": true,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
@@ -54,8 +57,6 @@
 	],
 	"indent_guide_options":
 	[
-		"draw_normal",
-		"draw_active"
 	],
 	"line_numbers": false,
 	"line_padding_bottom": 20,
