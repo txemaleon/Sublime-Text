@@ -1,0 +1,6 @@
+{
+	"default_extension": ".js",
+	"file_templates": {},
+	"ignore_case": true,
+	"rename_default": "<filename>",
+}
