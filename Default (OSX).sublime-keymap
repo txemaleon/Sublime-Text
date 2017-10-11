@@ -1,11 +1,12 @@
 [
 	// Line Controls
 	{ "keys": ["super+shift+k"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
-	{ "keys": ["ctrl+super+up"], "command": "swap_line_up" },
-	{ "keys": ["ctrl+super+down"], "command": "swap_line_down" },
+	{ "keys": ["super+ctrl+up"], "command": "swap_line_up" },
+	{ "keys": ["super+ctrl+down"], "command": "swap_line_down" },
+
 	// Indentation and Alignment
-	{ "keys": ["ctrl+super+right"], "command": "indent" },
-	{ "keys": ["ctrl+super+left"], "command": "unindent" },
+	{ "keys": ["super+ctrl+right"], "command": "indent" },
+	{ "keys": ["super+ctrl+left"], "command": "unindent" },
 	{ "keys": ["super+ctrl+r"], "command": "reindent" },
 	{ "keys": ["super+alt+r"], "command": "reindent" },
 	{ "keys": ["super+alt+a"], "command": "alignment" },
