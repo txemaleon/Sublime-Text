@@ -83,6 +83,7 @@
             "json (settings)": "json",
             "json (stylelint)": "json",
             "json (sublime)": "json",
+            "json (tern js)": "json",
             "php": "html",
             "python django": "python",
             "xml (config)": "xml",
@@ -95,7 +96,7 @@
             "yaml (stylelint)": "yaml",
             "yaml (yarn)": "yaml"
         },
-        "tooltip_fontsize": "1rem",
+        "tooltip_fontsize": ".8rem",
         "tooltip_theme": "Packages/SublimeLinter/tooltip-themes/Default/Default.tooltip-theme",
         "tooltip_theme_excludes": [],
         "tooltips": true,
