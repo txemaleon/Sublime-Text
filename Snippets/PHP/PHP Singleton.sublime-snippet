@@ -1,16 +1,16 @@
 <snippet>
 	<content><![CDATA[
-class ${1:ClassName}
+class ${1/(class\.|\.php)//g:$TM_FILENAME}
 {
 	/**
-	 * @var ${1:ClassName} The reference to *${1:ClassName}* instance of this class
+	 * @var ${1/(class\.|\.php)//g:$TM_FILENAME} The reference to *${1/(class\.|\.php)//g:$TM_FILENAME}* instance of this class
 	 */
 	private static \$instance;
 
 	/**
-	 * Returns the *${1:ClassName}* instance of this class.
+	 * Returns the *${1/(class\.|\.php)//g:$TM_FILENAME}* instance of this class.
 	 *
-	 * @return ${1:ClassName} The *${1:ClassName}* instance.
+	 * @return ${1/(class\.|\.php)//g:$TM_FILENAME} The *${1/(class\.|\.php)//g:$TM_FILENAME}* instance.
 	 */
 	public static function getInstance() {
 		if (null === static::\$instance) {
@@ -19,33 +19,33 @@ class ${1:ClassName}
 		return static::\$instance;
 	}
 
-	/**
+	${2:/**
 	 * Protected constructor to prevent creating a new instance of the
-	 * *${1:ClassName}* via the `new` operator from outside of this class.
-	 */
+	 * *${1/(class\.|\.php)//g:$TM_FILENAME}* via the `new` operator from outside of this class.
+	 */}
 	protected function __construct() {}
 
-	/**
+	${2:/**
 	 * Private clone method to prevent cloning of the instance of the
-	 * *${1:ClassName}* instance.
+	 * *${1/(class\.|\.php)//g:$TM_FILENAME}* instance.
 	 *
 	 * @return void
-	 */
+	 */}
 	private function __clone() {}
 
-	/**
-	 * Private unserialize method to prevent unserializing of the *${1:ClassName}*
+	${2:/**
+	 * Private unserialize method to prevent unserializing of the *${1/(class\.|\.php)//g:$TM_FILENAME}*
 	 * instance.
 	 *
 	 * @return void
-	 */
+	 */}
 	private function __wakeup() {}
 
 	${0:// Work}
 }
 
-function ${1:ClassName}() {
-	return ${1:ClassName}::getInstance();
+function ${1/(class\.|\.php)//g:$TM_FILENAME}() {
+	return ${1/(class\.|\.php)//g:$TM_FILENAME}::getInstance();
 }
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
