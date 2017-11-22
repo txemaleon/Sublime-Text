@@ -1,6 +1,7 @@
 {
-	"default_extension": ".js",
 	"file_templates": {},
 	"ignore_case": true,
 	"rename_default": "<filename>",
+	"rename_file_default_root": "current",
+	"copy_file_default_root": "current",
 }
