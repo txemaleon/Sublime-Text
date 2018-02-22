@@ -1,6 +1,6 @@
 // These settings override both User and Default settings for the YAML syntax
 {
-    "draw_white_space": "all",
+	"draw_white_space": "all",
 	"indent_guide_options": ["draw_active"],
 	"translate_tabs_to_spaces": true,
 	"tab_size": 2
