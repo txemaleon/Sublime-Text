@@ -7,7 +7,6 @@
 		"AlignConstVisibilityEquals",
 		"AlignDoubleArrow",
 		"AlignDoubleSlashComments",
-		"AlignEquals",
 		"AlignGroupDoubleArrow",
 		"AlignPHPCode",
 		"AlignTypehint",
@@ -20,10 +19,9 @@
 		"PrettyPrintDocBlocks",
 		"PSR2EmptyFunction",
 		"ReindentSwitchBlocks",
-		"SpaceAroundParentheses",
 		"SpaceBetweenMethods",
 		"SmartLnAfterCurlyOpen",
-		"TrimSpaceBeforeSemicolon",
+		"TrimSpaceBeforeSemicolon"
 	],
 	"version": 1
 }
