@@ -1,0 +1,27 @@
+{
+	"autocomplete": true,
+	"format_on_save": true,
+	"passes":
+	[
+		"AddMissingParentheses",
+		"AlignConstVisibilityEquals",
+		"AlignDoubleArrow",
+		"AlignDoubleSlashComments",
+		"AlignGroupDoubleArrow",
+		"AlignPHPCode",
+		"AlignTypehint",
+		"AutoSemicolon",
+		"DocBlockToComment",
+		"DoubleToSingleQuote",
+		"LongArray",
+		"OrderAndRemoveUseClauses",
+		"PHPDocTypesToFunctionTypehint",
+		"PrettyPrintDocBlocks",
+		"PSR2EmptyFunction",
+		"ReindentSwitchBlocks",
+		"SpaceBetweenMethods",
+		"SmartLnAfterCurlyOpen",
+		"TrimSpaceBeforeSemicolon"
+	],
+	"version": 1
+}
