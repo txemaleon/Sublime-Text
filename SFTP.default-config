@@ -4,12 +4,11 @@
 	"host": "${2:example.com}",
 	"remote_path": "${3:/${2:example.com}/wp-content/themes/}",
 	"user": "${4:www-data}",
-	// "password": "password",
-	"ssh_key_file": "${5:~/.ssh/id_rsa}",
-	// "port": "22",
+	"password": "${5:password}",
+	// "ssh_key_file": "~/.ssh/id_rsa",
 
 	"save_before_upload": ${20:true},
-	"upload_on_save": ${21:true},
+	"upload_on_save": ${21:false},
 	"sync_down_on_open": ${22:false},
 	"sync_skip_deletes": ${23:false},
 	"sync_same_age": ${24:true},
@@ -20,13 +19,13 @@
 		"\\\.sublime-(project|workspace)", "sftp-config(-alt\\\d?)?\\\.json",
 		"sftp-settings\\\.json", "/venv/", "\\\.svn/", "\\\.hg/", "\\\.git/",
 		"\\\.bzr", "_darcs", "CVS", "\\\.DS_Store", "Thumbs\\\.db", "desktop\\\.ini",
-		"\\\.sass-cache", "\\node_modules", "\\\.codekit", "prepros.cfg",
-		"\\\.env", "\\\.git(.*)"
+		"\\\.sass-cache", "\\\.codekit", "prepros.cfg",
+		"\\\.env", "\\\.git(.*)", "node_modules", "vendor"
 	],
 	"dir_permissions": "775",
 	"file_permissions": "664",
 	"extra_list_connections": 10,
-	"connect_timeout": 6,
-	"keepalive": 60,
+	"connect_timeout": 20,
+	"keepalive": 120,
 	"preserve_modification_times": true
 }
