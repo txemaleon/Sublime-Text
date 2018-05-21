@@ -5,23 +5,24 @@
 	[
 		"AddMissingParentheses",
 		"AlignConstVisibilityEquals",
-		"AlignDoubleArrow",
 		"AlignDoubleSlashComments",
+		"AlignEquals",
 		"AlignGroupDoubleArrow",
-		"AlignPHPCode",
 		"AlignTypehint",
 		"AutoSemicolon",
+		"ConvertOpenTagWithEcho",
 		"DocBlockToComment",
 		"DoubleToSingleQuote",
 		"LongArray",
 		"OrderAndRemoveUseClauses",
 		"PHPDocTypesToFunctionTypehint",
-		"PrettyPrintDocBlocks",
 		"PSR2EmptyFunction",
 		"ReindentSwitchBlocks",
-		"SpaceBetweenMethods",
 		"SmartLnAfterCurlyOpen",
-		"TrimSpaceBeforeSemicolon"
+		"SpaceBetweenMethods",
+		"TrimSpaceBeforeSemicolon",
+		"IndentTernaryConditions",
+		"PrettyPrintDocBlocks"
 	],
 	"version": 1
 }
