@@ -1,6 +1,3 @@
 {
-	"schemr_favorites":
-	[
-		"Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme"
-	]
+	"schemr_favorites": ["Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme"]
 }

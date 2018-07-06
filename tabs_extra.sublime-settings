@@ -1,6 +1,6 @@
 {
 	"persistent_sticky": true,
-    "numeric_sort": true,
-    "sort_on_load_save": true,
-    "sort_on_load_save_command": {"module": "TabsExtra.sort.path"}
+	"numeric_sort": true,
+	"sort_on_load_save": true,
+	"sort_on_load_save_command": { "module": "TabsExtra.sort.path" }
 }

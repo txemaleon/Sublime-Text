@@ -1,7 +1,3 @@
 {
-	"themr_favorites":
-	[
-		"Material-Theme.sublime-theme",
-		"Material-Theme-Darker.sublime-theme"
-	]
+	"themr_favorites": ["Material-Theme.sublime-theme", "Material-Theme-Darker.sublime-theme"]
 }

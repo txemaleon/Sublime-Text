@@ -3,5 +3,5 @@
 		"css.valueSeparator": ": ",
 		"css.alignVendor": true,
 		"css.propertyEnd": ";"
-	},
+	}
 }

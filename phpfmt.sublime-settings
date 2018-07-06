@@ -1,8 +1,7 @@
 {
 	"autocomplete": true,
 	"format_on_save": true,
-	"passes":
-	[
+	"passes": [
 		"AddMissingParentheses",
 		"AlignConstVisibilityEquals",
 		"AlignDoubleSlashComments",

@@ -7,5 +7,7 @@
 		"singleQuote": true,
 		"trailingComma": "es5",
 		"useTabs": true
-	}
+	},
+	"custom_file_extensions": ["sublime-settings", "sublime-project", "sublime-workspace"],
+	"allow_inline_formatting": true
 }
